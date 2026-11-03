@@ -1,5 +1,5 @@
 {% set name = "pysonar" %}
-{% set version = "1.1.0.2035" %}
+{% set version = "1.10.0.5888" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pysonar-{{ version }}.tar.gz
-  sha256: 39bde087aa5e72e8ebaf44f46c7ea69e8b1539f9d9101cba3964656d3e2fccc1
+  sha256: 91a0d1106a8cd5b5452a98f777d0e72b3c021736a19fa685c15109f536dfc000
 
 build:
   noarch: python
